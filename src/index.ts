@@ -1,3 +1,3 @@
-import express, { type Express, type Request, type Response } from "express";
+import { app } from "./app.ts";
 
-const app: Express = express();
+app.listen(3000);
